@@ -1,0 +1,135 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Projects</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/800fda3997.js" crossorigin="anonymous"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Merienda&family=Bree+Serif&family=Montserrat+Subrayada&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+        .bg-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            background-image: linear-gradient(to top left,
+                    rgb(255, 191, 255), rgb(236, 209, 255), rgb(201, 201, 255), rgb(193, 255, 193), rgb(255, 255, 197), rgb(255, 234, 194), rgb(255, 188, 188));
+        }
+
+        .main-heading {
+            font-family: "Merienda";
+            color: rgb(255, 23, 23);
+        }
+
+        .card-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            font-family: "Roboto";
+            width: 100%;
+            margin: 0px auto;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            border-radius: 30px;
+            margin: 10px;
+
+
+        }
+
+        .logo {
+            width: 150px;
+            height: 150px;
+
+            border-radius: 25px 25px 0px 0px;
+        }
+
+        .card-name {
+            text-align: center;
+            color: rgb(79, 79, 79);
+            font-weight: bold;
+        }
+
+        .link {
+            text-decoration: none;
+
+
+        }
+
+        .link:hover {
+            scale: 1.05;
+            text-decoration: none;
+        }
+
+        @media screen and (max-width:768px) {
+            .card-container {
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-container">
+        <h1 class="main-heading">Mini Projects</h1>
+        <div class="card-container">
+            <a href="ageCalculator.html" class="link">
+                <div class="card shadow">
+                    <img draggable="false"
+                        src="https://res.cloudinary.com/dzogn4vh2/image/upload/v1687599349/my%20folder/Age-Calculator_tuxhcr.png"
+                        alt="A" class="logo">
+                    <p class="card-name">Age Calculator</p>
+                </div>
+            </a>
+            <a href="bmi.html" class="link">
+                <div class="card shadow">
+                    <img draggable="false"
+                        src="https://res.cloudinary.com/dzogn4vh2/image/upload/v1687599326/my%20folder/bmi_ddvra8.png"
+                        alt="BMI" class="logo">
+                    <p class="card-name">BMI Calculator</p>
+                </div>
+            </a>
+            <a href="myPortfolio.html" class="link">
+                <div class="card shadow">
+                    <img draggable="false"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_tjODaA0QgsA3l0imGNa4HOMOy3_6TjV-Tw&usqp=CAU"
+                        alt="PF" class="logo">
+                    <p class="card-name">Portfolio</p>
+                </div>
+            </a>
+            <a href="typingSpeed.html" class="link">
+                <div class="card shadow">
+                    <img draggable="false"
+                        src="https://res.cloudinary.com/dzogn4vh2/image/upload/v1687599326/my%20folder/typing-logo_mitqqz.webp"
+                        alt="TS" class="logo">
+                    <p class="card-name">Typing-speed</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>
