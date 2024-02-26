@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+.background{
+    font-family: "Bree Serif";
+    display:grid;
+    align-content: center;
+    justify-items: center;
+    background-image:linear-gradient(to top left,
+    rgb(224, 146, 217),
+    rgba(75, 209, 109, 0.506));
+    min-height: 100vh;
+}
+.bg-container{
+    display:flex;
+    flex-direction:column;
+    padding: 30px;
+    background-color: beige;
+    border: 2px solid rgb(255, 80, 80);
+    border-radius: 20px;
+    background-image: linear-gradient(
+        to top left,
+        rgb(113, 113, 222)20%,
+        cyan 
+    );
+    
+}
+.button{
+    margin: 30px auto;
+    color: rgb(121, 121, 121);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    /*background-color: rgb(34, 68, 255); */
+    background-image: linear-gradient(to top right,
+        rgb(194, 255, 252)20%,
+        /* rgb(255, 191, 172), */
+        rgb(253, 182, 255),
+        rgb(255, 199, 164)
+    );
+    padding: 5px 20px;
+}
+.button:focus,button:hover{
+    outline: none;
+}
+.button:active{
+    scale: 0.97;
+}
+.heading{
+    color: white;
+}
+.result{
+    padding: 15px;
+    border: 3px dotted white;
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    height: 100px;
+    width:100%;
+}
+.input{
+    font-size: 15px;
+    font-weight: 100;
+}
+@media screen and (max-width: 769px) {
+    .bg-container{
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0px;
+        margin: 0;
+    }
+    .button{
+        position: relative;
+        top: 20vh;
+        scale: 1.4;
+        
+    }
+
+}
